@@ -6,8 +6,8 @@
 #define SNR_HIGH 40.0
 #define SNR_STEP 2.0
 
-const qam::Constellation MOD = qam::Constellation::QAM16;
-const unsigned int dataSize = 1000; 
+const qam::Constellation MOD = qam::Constellation::QAM64;
+const unsigned int dataSize = 10000; 
 
 int main()
 {   
